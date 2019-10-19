@@ -22,7 +22,8 @@ defmodule MinimalElixirServer.MixProject do
     [
       {:poison, "~> 3.0"},
       {:plug, "~> 1.6"},
-      {:cowboy, "~> 2.4"}
+      {:cowboy, "~> 2.4"},
+      {:plug_cowboy, "~> 2.1"}
     ]
   end
 end
